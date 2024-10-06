@@ -1,0 +1,31 @@
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    height: calc(100vh - 72px);
+    padding: 80px 0px;
+}
+
+.hero-section .__left-section h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 800;
+    max-width: 80%;
+}
+
+.hero-section .__left-section p {
+    margin-block: 20px;
+    max-width: 80%;
+    font-weight: 500;
+}
+
+.hero-section .__left-section .button-area{
+    display: flex;
+    gap: 10px;
+}
+
+
+.hero-section .__left-section .platform-image-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
